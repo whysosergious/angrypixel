@@ -1,0 +1,13 @@
+.Route-Button {
+	color: white;
+	/* position: absolute; */
+	/* top: 10rem; */
+	height: 1rem;
+	padding: 0 1.4rem;
+}
+
+button {
+	height: 2.2rem;
+	padding: 0 2.4rem;
+	margin-bottom: 1rem;
+}

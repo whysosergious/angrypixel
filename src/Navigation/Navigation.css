@@ -1,0 +1,14 @@
+.Navigation {
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	top: 0; left: 0;
+	height: 2.7rem;
+	width: 100%;
+
+	padding: 0 1rem;
+
+	background-color: rgb(12, 36, 34);
+}
