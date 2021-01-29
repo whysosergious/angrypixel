@@ -11,6 +11,10 @@
 	transform-style: preserve-3d;
 }
 
+:focus {
+	outline: none;
+}
+
 * {
 	text-decoration: none;
 	box-sizing: border-box;
@@ -64,4 +68,9 @@ a {
 	scroll-behavior: smooth;
 	/* perspective: 300px; */
 	/* transform-style: preserve-3d; */
+}
+
+
+::-webkit-scrollbar {
+	width: .8rem;
 }

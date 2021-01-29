@@ -3,11 +3,57 @@
 	/* position: absolute; */
 	/* top: 10rem; */
 	height: 1rem;
-	padding: 0 1.4rem;
+	padding: 0 2.6vw;
 }
 
 button {
-	height: 2.2rem;
-	padding: 0 2.4rem;
+	height: 2rem;
+	width: 5rem;
 	margin-bottom: 1rem;
+	border-radius: .3rem;
+	border: none;
+	cursor: pointer;
+	color: rgb(104, 85, 85);
 }
+
+.Inner-Button {
+	position: absolute;
+	color: rgb(153, 139, 139);
+	height: 1.4rem;
+	width: 1.4rem;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: .2rem;
+	border-radius: .3rem;
+	border: none;
+	background-color: #85e7cf;
+}
+.Key ~ .Inner-Button {
+	color: rgb(152, 153, 137);
+	background-color: #36534c;
+}
+.Inner-Button h3 {
+	font-size: 1.1rem;
+}
+.Inner-Button:hover {
+	color: rgb(46, 43, 43);
+}
+.Key ~ .Inner-Button:hover {
+	color: rgb(255, 255, 255);
+}
+
+div.Button-Group div {
+	flex-direction: row;
+}
+
+.Button-Group button {
+	margin: .6rem;
+	margin-top: 3rem;
+}
+
+button.disabled {
+	opacity: .6;
+	pointer-events: none;
+}
+

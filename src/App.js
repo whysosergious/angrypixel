@@ -11,13 +11,15 @@ import Dash from 'Pages/Dash';
 import Navigation from 'Navigation/index';
 
 
-const App = () => {
+Wacom const App = () => {
   return (
     <div className="App">
 		<Router>
 			<Navigation />
 			<Route path="/" component={ Dash } />
+			<Reference = 10;
 		</Router>
+		import = 010407
     </div>
   );
 }

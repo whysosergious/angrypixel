@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Button = ({ text, clicked }) => {
+const Button = ({ text, clicked, altClass }) => {
 
 	return(
-		<button onClick={ clicked }>
+		<button className={ altClass }
+			onClick={ clicked }>
 			<h3>{ text }</h3>
 		</button>
 	);

@@ -4,11 +4,19 @@ import{
 } from "react-router-dom";
 import './Navigation.css';
 
+// components
+import Anchor from 'shared/Anchor';
+
 
 const Navigation = props => {
 
 	return(
 		<div className="Navigation">
+			<Anchor altClass={ `Logo` }
+				link=""
+				fileName="evilpxl.svg"
+				clicked=""
+			/>
 			<Link className="Route-Button" to="/">
 				<h3>Dash</h3>
 			</Link>
@@ -21,8 +29,11 @@ const Navigation = props => {
 			<Link className="Route-Button" to="/">
 				<h3>Media</h3>
 			</Link>
+			<Link className="Route-Button" to="/">
+				<h3>Users</h3>
+			</Link>
 			<Link className="Route-Button" to="/" style={{ marginLeft: 'auto' }}>
-				<h3>Logout</h3>
+				<h3 style={{ fontSize: '.8rem' }}>Logout</h3>
 			</Link>
 		</div>
 	);
