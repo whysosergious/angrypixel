@@ -79,17 +79,17 @@ export default Section;
 
 
 
-{
-	Language: 'Sve.',
-	Landing:
-	{
-		Greeting:
-		{
-			[ Welcome, Wekcome ],
-			[ Title, 'Oliver-Twist'],
-			Buttons: {
-				<
-			}
-		}
-	}
-}
+// {
+// 	Language: 'Sve.',
+// 	Landing:
+// 	{
+// 		Greeting:
+// 		{
+// 			[ Welcome, Wekcome ],
+// 			[ Title, 'Oliver-Twist'],
+// 			Buttons: {
+// 				<
+// 			}
+// 		}
+// 	}
+// }
