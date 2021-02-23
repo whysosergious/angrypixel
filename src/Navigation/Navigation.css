@@ -1,6 +1,7 @@
 .Navigation {
 	display: flex;
-	position: absolute;
+	flex-shrink: 0;
+	position: relative;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;

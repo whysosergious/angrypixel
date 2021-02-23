@@ -5,12 +5,15 @@ import 'logic/cook.js';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { fetchJSON } from 'logic/zcm';
 
-ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	document.getElementById('root')
-);
-
-reportWebVitals();
+fetchJSON().then(() => {
+	ReactDOM.render(
+		<React.StrictMode>
+			<App />
+		</React.StrictMode>,
+		document.getElementById('root')
+	);
+	
+	reportWebVitals();
+});

@@ -8,18 +8,18 @@ import {
 
 // components
 import Dash from 'Pages/Dash';
+import Content from 'Pages/Content';
 import Navigation from 'Navigation/index';
 
 
 const App = () => {
   return (
     <div className="App">
-		<Router>
-			<Navigation />
-			<Route path="/" component={ Dash } />
-			{/* <Reference />; */}
-		</Router>
-		import = 010407
+			<Router>
+				<Navigation />
+				<Route path="/dash" component={ Dash } />
+				<Route path="/content" component={ Content } />
+			</Router>
     </div>
   );
 }

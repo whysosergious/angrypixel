@@ -2,13 +2,13 @@ import React from 'react';
 import './Dash.css';
 
 // components
-import Section from 'shared/Section';
+// import Section from 'shared/Section';
 
-const Dash = props => {
+const Dash = () => {
 
 	return(
-		<section className="Dashboard-Page">
-			<Section />
+		<section className="Page">
+			{/* <Section /> */}
 		</section>
 	);
 }

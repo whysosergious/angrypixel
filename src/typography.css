@@ -1,5 +1,15 @@
 
-
+h2 {
+	font-size: 1.1rem;
+	text-transform: capitalize;
+}
+h2.small {
+	font-size: 1rem;
+	text-transform: capitalize;
+}
 h3 {
 	font-size: .9rem;
+}
+h4 {
+	font-weight: 300;
 }

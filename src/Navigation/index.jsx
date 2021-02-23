@@ -17,19 +17,19 @@ const Navigation = props => {
 				fileName="evilpxl.svg"
 				clicked=""
 			/>
-			<Link className="Route-Button" to="/">
+			<Link className="Route-Button" to="/dash">
 				<h3>Dash</h3>
 			</Link>
-			<Link className="Route-Button" to="/">
+			<Link className="Route-Button" to="/menus">
 				<h3>Menues</h3>
 			</Link>
-			<Link className="Route-Button" to="/">
-				<h3>Text & Language</h3>
+			<Link className="Route-Button" to="/content">
+				<h3>Text & Locale</h3>
 			</Link>
-			<Link className="Route-Button" to="/">
+			<Link className="Route-Button" to="/media">
 				<h3>Media</h3>
 			</Link>
-			<Link className="Route-Button" to="/">
+			<Link className="Route-Button" to="/users">
 				<h3>Users</h3>
 			</Link>
 			<Link className="Route-Button" to="/" style={{ marginLeft: 'auto' }}>
