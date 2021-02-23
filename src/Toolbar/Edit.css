@@ -1,0 +1,16 @@
+.Edit-Toolbar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 17rem; */
+  width: 3.3rem;
+  top: 13rem;
+  right: 2rem;
+  padding: .3rem 0;
+  background-color: #1d273a;
+  border-radius: 1rem;
+  box-shadow: -.3rem .5rem 1.7rem rgba(103, 138, 80, 0.459);
+  z-index: 2;
+}

@@ -16,13 +16,29 @@ export const fetchJSON = async () => {
     .then(function(myJson) {
       
       ZCM = myJson;
-      console.log(ZCM);
+      ZCMbackup = JSON.parse(JSON.stringify(ZCM));
+      // ZCMbackup = JZCMbackup);
+      console.log(ZCM, ZCMbackup);
     });
   // console.log(json);
 
 }
 
+export const restore = () => {
+  ZCM = JSON.parse(JSON.stringify(ZCMbackup));
+}
+export const save = () => {
+  ZCMbackup = JSON.parse(JSON.stringify(ZCM));
+}
 
 export var ZCM = {
 	
 };
+
+export var ZCMbackup = {
+
+}
+
+export var tempController = {
+
+}
